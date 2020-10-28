@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(154, 148, 96, 1);
+}
+button{
+    background-color: rgba(154, 148, 96, 1);
+    border-style: solid;
+    border-color: black;
+    width:300px;
+}
+.Titulo{
+    color: black;
+    font-size: 60px;
+}
+.navbar{
+    color: darkmagenta;
+}
