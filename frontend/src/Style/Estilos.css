@@ -1,16 +1,35 @@
 body{
-    background-color: rgba(154, 148, 96, 1);
+    background-image:url(../imagenes/alterno.jpg);
+    display: block;
+    width:100%;
 }
-button{
-    background-color: rgba(154, 148, 96, 1);
-    border-style: solid;
-    border-color: black;
-    width:300px;
+
+.navegacion{
+    display: block;
+    width: 100%;
 }
+
 .Titulo{
     color: black;
     font-size: 60px;
 }
-.navbar{
-    color: darkmagenta;
+
+header{
+    background-color: black;
+}
+.informativo{
+text-align: center;
+color: black;
+}
+.logo{
+    margin:10px auto;
+    display:block;
+}
+.button{
+    width: 50%;
+}
+.form-control{
+background-color:ghostwhite;
+outline:none;
+border-radius: 5px;
 }

@@ -4,13 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import $ from 'jquery';
 import Popper from 'popper.js';
-import App from './pages/App'
-import Registro from './pages/Registro';
-import Menu from './Componentes/Menu';
+import App from './Rutas/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Registro/> 
+    <App/> 
     
     
   </React.StrictMode>,
