@@ -1,7 +1,11 @@
 body{
     background-image:url(../imagenes/alterno.jpg);
-    display: block;
+    display: flexbox;
     width:100%;
+}
+.cabeza{
+    padding-right: 100px;
+    width: 100%;
 }
 
 .navegacion{
@@ -13,10 +17,6 @@ body{
     color: black;
     font-size: 60px;
 }
-
-header{
-    background-color: black;
-}
 .informativo{
 text-align: center;
 color: black;
@@ -25,11 +25,23 @@ color: black;
     margin:10px auto;
     display:block;
 }
-.button{
-    width: 50%;
-}
+
 .form-control{
 background-color:ghostwhite;
 outline:none;
 border-radius: 5px;
+}
+.main{
+    padding:40px;
+    margin-top: 70px;
+}
+.botones{
+    margin-left:50px !important;
+    width: 210px;
+color:whitesmoke;
+background-color: green;
+}
+.titulo-texto{
+font-style: italic;
+color: black;
 }

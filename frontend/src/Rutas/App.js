@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Registro from '../pages/Registro'
 import Menu from '../pages/Menu'
 
+
 const App = () => {
   return (
     <BrowserRouter>

@@ -5,13 +5,12 @@ import { Link } from 'react-router-dom';
 class Login extends Component {
     render() {
         return (
-            <body>
+            
                 <center>
                     <div className="container">
                         <form className="form-signin">
                             <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Valknut.svg/1200px-Valknut.svg.png"
                                 alt="" width="400" height="200" />
-
                             <h1 className="informativo">POR FAVOR REGISTRATE</h1>
                             <label for="inputEmail" className="sr-only">Correo electronico</label>
                             <input type="email" id="inputEmail" className="form-control" placeholder="Correo Electronico" required="" autofocus="" />
@@ -24,7 +23,7 @@ class Login extends Component {
                         </form>
                     </div>
                 </center>
-            </body>
+            
         );
     }
 }
