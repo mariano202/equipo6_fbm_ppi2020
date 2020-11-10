@@ -1,0 +1,49 @@
+
+//https://www.youtube.com/watch?v=3QLcHjNp-08&feature=youtu.be&fbclid=IwAR20JnoP-aVwey5jaidYHNB0oMyY8zKkhWUliokA527nI4rvnz3stLsMr30
+
+
+### GET POSTS extension REST-Client
+// get some post from actores 
+GET http://localhost:3000/api/estudiantes/
+
+
+### DEFAULT GET
+http://localhost:3000/api/estudiante/2
+
+### POST
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+  "title": "my post",
+  "body": "my post body"
+}
+
+### GET SINGLE POST
+GET https://jsonplaceholder.typicode.com/posts/1
+
+### DELETE POST
+DELETE https://jsonplaceholder.typicode.com/posts/1
+
+### PUT POST
+PUT https://jsonplaceholder.typicode.com/posts/1
+Content-Type: application/json
+
+{
+  "title": "My Updated Title",
+  "body": "My Updated Body"
+}
+
+## Query String
+
+GET https://jsonplaceholder.typicode.com/posts?_limit=10
+
+### Multiple Query
+GET http://localhost:3000/api/modulos
+
+### Separated by lines
+GET https://jsonplaceholder.typicode.com/posts
+  ?_limit=10
+  &_page=2
+  &_sort=id
+  &_order=desc
