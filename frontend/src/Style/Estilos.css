@@ -7,6 +7,10 @@ body{
     padding-right: 100px;
     width: 100%;
 }
+.Queja_cuerpo{
+    display: block;
+    width: 100%;
+}
 
 .navegacion{
     display: block;
