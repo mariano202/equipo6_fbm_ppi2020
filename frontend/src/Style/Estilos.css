@@ -12,7 +12,10 @@ body{
     display: block;
     width: 100%;
 }
-
+.Perfil_cuerpo{
+    display: block;
+    width: 100%;
+}
 .Titulo{
     color: black;
     font-size: 60px;
