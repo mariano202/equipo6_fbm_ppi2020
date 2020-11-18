@@ -172,8 +172,11 @@ class Queja_cuerpo extends Component{
 </div>
 </div>
 </div>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 813aab180d409311a5aabeb6d1f43abae960f350
         )
     }
   }

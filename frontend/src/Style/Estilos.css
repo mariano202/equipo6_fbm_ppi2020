@@ -3,6 +3,10 @@ body{
     display: flexbox;
     width:100%;
 }
+.container{
+    text-align: center;
+}
+
 .cabeza{
     padding-right: 100px;
     width: 100%;
@@ -11,14 +15,18 @@ body{
     display: block;
     width: 100%;
 }
-
+.h4 {
+    text-align: center;
+}
 .navegacion{
     display: block;
-    width: 100%;
+    width: 100%;    
 }
+
 .Perfil_cuerpo{
     display: block;
     width: 100%;
+    text-align: center;
 }
 .Titulo{
     color: black;
