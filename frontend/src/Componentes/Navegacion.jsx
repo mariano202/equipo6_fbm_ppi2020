@@ -30,7 +30,7 @@ class Navegacion extends Component {
                 </li>
                 <li className="nav-item">
                 
-                 <Link to='/'><button className="botones" type="button">INICIO DE SESION</button></Link>
+                 <Link to='/registro'><button className="botones" type="button">INICIO DE SESION</button></Link>
                   
                 </li>
               </ul>

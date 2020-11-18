@@ -1,5 +1,5 @@
 body{
-    background-image:url(../imagenes/alterno.jpg);
+background-image:url(https://cutewallpaper.org/21/odin-wallpaper-hd/Die-60-Besten-Viking-Wallpapers.jpg);
     display: flexbox;
     width:100%;
 }
@@ -18,7 +18,7 @@ body{
 }
 
 .Titulo{
-    color: black;
+    color:rgb(0, 0, 0);
     font-size: 60px;
 }
 .informativo{
@@ -48,4 +48,13 @@ background-color: green;
 .titulo-texto{
 font-style: italic;
 color: black;
+}
+.parrafo{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:beige;
+font-size:larger
+}
+.titulo_parrafo{
+    color: beige;
+    text-decoration:underline;
 }
