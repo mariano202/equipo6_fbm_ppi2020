@@ -214,10 +214,6 @@ class Queja_cuerpo extends Component{
     </div>
   </div>
 </div>
-
-
-
-
         )
     }
 }
