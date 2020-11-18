@@ -10,7 +10,12 @@ class Footer extends Component {
             <footer className="pt-4 my-md-3 pt-md-2 border-top">
                 <div className="row">
                     <div className="col-12 col-md">
+<<<<<<< HEAD
                         <img className="mb-2" src="https://www.iefelixdebedoutmoreno.edu.co/img/I.E.Felix_de_Bedout_Moreno.png" alt="" width="24" height="24" />
+=======
+<img className="mb-2" 
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Valknut.svg/1200px-Valknut.svg.png" alt="" width="24" height="24" />
+>>>>>>> ac1041033ec31a2ee95a888fd3d2f4bc0c8a70d7
                         <small className="d-block mb-3 text-body">©2020</small>
                     </div>
                     <div className="col-6 col-md">

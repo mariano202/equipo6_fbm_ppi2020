@@ -3,6 +3,10 @@ background-image:url(https://cutewallpaper.org/21/odin-wallpaper-hd/Die-60-Beste
     display: flexbox;
     width:100%;
 }
+.container{
+    text-align: center;
+}
+
 .cabeza{
     padding-right: 100px;
     width: 100%;
@@ -11,12 +15,19 @@ background-image:url(https://cutewallpaper.org/21/odin-wallpaper-hd/Die-60-Beste
     display: block;
     width: 100%;
 }
-
+.h4 {
+    text-align: center;
+}
 .navegacion{
     display: block;
-    width: 100%;
+    width: 100%;    
 }
 
+.Perfil_cuerpo{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
 .Titulo{
     color:rgb(0, 0, 0);
     font-size: 60px;
@@ -48,6 +59,7 @@ background-color: green;
 .titulo-texto{
 font-style: italic;
 color: black;
+<<<<<<< HEAD
 }
 .parrafo{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -57,4 +69,7 @@ font-size:larger
 .titulo_parrafo{
     color: beige;
     text-decoration:underline;
+=======
+
+>>>>>>> ac1041033ec31a2ee95a888fd3d2f4bc0c8a70d7
 }
