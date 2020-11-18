@@ -5,7 +5,7 @@ import '../Style/Estilos.css';
 class Queja_cuerpo extends Component{
     render(){
         return(
-<<<<<<< HEAD
+ <body>
           <div className="container">
 
           <div className="py-5 text-center">
@@ -213,8 +213,8 @@ class Queja_cuerpo extends Component{
             </div>
           </div>
         </div>        
-=======
-          
+
+
 
           <div className="container">
   <div className="py-5 text-center">
@@ -381,16 +381,9 @@ class Queja_cuerpo extends Component{
 </div>
 </div>
 </div>
-<<<<<<< HEAD
+</body>
 
-
-=======
->>>>>>> 813aab180d409311a5aabeb6d1f43abae960f350
->>>>>>> ac1041033ec31a2ee95a888fd3d2f4bc0c8a70d7
         )
     }
   }
-
-export default Queja_cuerpo
-          
-  
+export default Queja_cuerpo;
