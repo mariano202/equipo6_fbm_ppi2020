@@ -11,7 +11,7 @@ class Login extends Component {
                         <form className="form-signin">
                             <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Valknut.svg/1200px-Valknut.svg.png"
                                 alt="" width="400" height="200" />
-                            <h1 className="informativo">POR FAVOR REGISTRATE</h1>
+                            <h1 className="informativo">INICIAR SESION</h1>
                             <label for="inputEmail" className="sr-only">Correo electronico</label>
                             <input type="email" id="inputEmail" className="form-control" placeholder="Correo Electronico" required="" autofocus="" />
                             <label for="inputPassword" className="sr-only">Contraseña</label>
@@ -27,4 +27,4 @@ class Login extends Component {
         );
     }
 }
-export default Login
+export default Login;

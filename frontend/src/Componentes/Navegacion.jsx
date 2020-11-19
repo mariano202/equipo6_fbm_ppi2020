@@ -16,7 +16,7 @@ class Navegacion extends Component {
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">
                  
-                  <button className="botones" type="button">DIGITAR QUEJA</button>
+                  <Link to='/digitar_queja'><button className="botones" type="button">DIGITAR QUEJA</button></Link>
                 
                 </li>
                 <li className="nav-item">
@@ -26,7 +26,7 @@ class Navegacion extends Component {
                 </li>
                 <li className="nav-item">
                 
-                  <button className="botones" type="button">PERFIL</button>
+                  <Link to='/perfil'><button className="botones" type="button">PERFIL</button></Link>
                   
                 </li>
                 <li className="nav-item">
