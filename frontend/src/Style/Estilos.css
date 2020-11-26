@@ -68,7 +68,8 @@ color: black;
 .parrafo{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color:beige;
-font-size:larger
+font-size:larger;
+padding: 12px;
 }
 .titulo_parrafo{
     color: beige;
