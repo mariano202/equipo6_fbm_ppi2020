@@ -20,13 +20,6 @@ class Nav_inicio extends Component{
                 <ul className="navbar-nav mr-auto">
                   <li className="nav-item active">
                    
-<<<<<<< HEAD
-                    <Link to='/Login'><button className="botones" type="button">REGISTRARSE</button></Link>
-
-=======
-                    <Link to='/registra'><button className="botones" type="button">REGISTRARSE</button></Link>
-                  
->>>>>>> caca684b097da6b4f26bd06f75c5edf817df77c1
                   </li>
 
                   <li className="nav-item">
