@@ -125,7 +125,7 @@ class Queja_cuerpo extends Component{
          </div>
        </div>
      </div>
-          <Link to='/Menu'><button className="botones" type="button">Siguiente</button></Link>
+          <Link to='/Menu'><button className="botones" type="button">Finalizar.</button></Link>
 
    </form>
  </div>

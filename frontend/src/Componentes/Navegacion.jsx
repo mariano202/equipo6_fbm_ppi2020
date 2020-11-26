@@ -13,10 +13,9 @@ class Navegacion extends Component {
             <img className="mb-4 col-lg-4" src=
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Valknut.svg/1200px-Valknut.svg.png"
              alt="" width="70" height="70" />
-            <label className="Titulo mb-4 col-lg-4">ODIN</label>
             <div className="navegacion" id="navbarCollapse">
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-7">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">
                  

@@ -30,7 +30,7 @@ class Nav_inicio extends Component{
 
                   <li className="nav-item active">
 
-                  <Link to='/digitar_queja'><button className="botones" type="button">DIGITAR QUEJA</button></Link>
+                  <Link to='/registra'><button className="botones" type="button">REGISTRARSE</button></Link>
                   </li>
           
                 </ul>

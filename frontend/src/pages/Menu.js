@@ -11,7 +11,7 @@ export default function Menu() {
             
                     <Navegacion />
                 
-                <Queja_cuerpo/>
+                
                 
                     <Cuerpo />
                 
