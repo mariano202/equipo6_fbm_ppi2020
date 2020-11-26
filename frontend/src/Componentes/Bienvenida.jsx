@@ -12,8 +12,6 @@ class Bienvenida extends Component {
                     <div className="col-md-7">
                         <h2 className="titulo_parrafo">ODIN</h2>
                         <p className="parrafo">Es un servicio para empleados y empleadores que desean generar una forma de resolución de conflictos evitando la confrontación directa entre los implicados, que producirá no solo un ambiente tranquilo, también uno seguro, es una plataforma web que permitirá informar y recibir quejas problemáticas que suceda en el ambiente, de forma anónima y segura, siendo puntual en la resolución del problema presentado, nuestro producto le permitirá al informante notificar con agilidad y certeza la situación a los directivos, quienes realizaran el conducto regular.</p>
-                        <Link to='/digitar_queja'><button className="botones" type="button">REGISTRARSE</button></Link>
-                        <Link to='/registro'><button className="botones" type="button">INICIAR SESION</button></Link>
                     </div>
                     <div className="col-md-5">
                         <img src={valknut} alt=""/>

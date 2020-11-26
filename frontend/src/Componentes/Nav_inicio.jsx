@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
-
+import {Label,ModalBody, Button, Modal, ModalHeader, FormGroup, ModalFooter} from 'reactstrap';
 class Nav_inicio extends Component{
+  state={
+    abierto: false,
+  }
+  abrirModal=()=>{
+    this.setState({abierto: !this.state.abierto});
+  }
     render(){
         return(
             <header className="cabeza" >
@@ -14,14 +20,19 @@ class Nav_inicio extends Component{
                 <ul className="navbar-nav mr-auto">
                   <li className="nav-item active">
                    
+<<<<<<< HEAD
                     <Link to='/Login'><button className="botones" type="button">REGISTRARSE</button></Link>
 
+=======
+                    <Link to='/registra'><button className="botones" type="button">REGISTRARSE</button></Link>
+                  
+>>>>>>> caca684b097da6b4f26bd06f75c5edf817df77c1
                   </li>
 
                   <li className="nav-item">
                   
-                   <Link to='/registro'><button className="botones" type="button">INICIO DE SESION</button></Link>
-                    
+                   <button className="botones" type="button" onClick={this.abrirModal}>INICIO DE SESION</button>
+                   
                   </li>
 
                   <li className="nav-item active">
@@ -30,6 +41,28 @@ class Nav_inicio extends Component{
                   </li>
           
                 </ul>
+                <Modal isOpen={this.state.abierto}>
+<ModalHeader>
+  ¿QUE USUARIO ERES?
+</ModalHeader>
+<ModalBody>
+<FormGroup>
+ <Link to='registro'> <Button className="botones" type="button" color="succes">Usuario Estudiante</Button></Link>
+</FormGroup>
+
+<FormGroup>
+  <Link to='registro'><Button className="botones" type="button" color="succes">Usuario Docente</Button></Link>
+</FormGroup>
+<FormGroup>
+ <Link to='registro_admin'><Button className="botones" type="button" color="succes">Administrador Rector o coordinador</Button></Link>
+</FormGroup>
+
+</ModalBody>
+<ModalFooter>
+<Button className="botones" type="button" onClick={this.abrirModal}>Cerrar</Button>
+
+</ModalFooter>
+                </Modal>
               </div>
             </nav>
           </header> 
