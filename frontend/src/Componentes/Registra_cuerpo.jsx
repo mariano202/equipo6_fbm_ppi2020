@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import '../Style/Estilos.css';
 import valknut from '../imagenes/valknut.png';
+import { Link } from 'react-router-dom';
 
-class Perfil_cuerpo extends Component {
+class Registra_cuerpo extends Component {
   render() {
     return (
 <center>
       <div className="container">
         <div className="py-7 text-center">
-          <img src={valknut} alt="" width="102" />
-          <h2>PERFIL</h2>
-          <p className="lead">Tus datos anteriormente diligenciados se encuentran aqui</p>
+          <img src={valknut} alt="" width="92" />
+          <h2>REGISTRO</h2>
+          <p className="lead">Por favor registrate para asi guardar tus datos personales y lograr acceder a la mejor aplicacion sobre quejas que podras usar
+                                </p>
 
             <div className="row">
             <div className="col-md-7 order-md-7 mb-4 text-center ">
@@ -25,14 +27,15 @@ class Perfil_cuerpo extends Component {
  
                 <div className="row">
                   <div className="col-md-6 mb-1">
-                    <label for="firstName">Tus nombres</label>
+                    <label for="firstName">Nombres</label>
                     <input type="text-center" class="form-control" id="firstName" placeholder="" value="" required="" />
                     <div className="invalid-feedback">
+                      Valid first name is required.
                      </div>
                   </div>
 
                   <div className="col-md-6 mb-1">
-                    <label for="lastName">Tus apellidos</label>
+                    <label for="lastName">Apellidos</label>
                     <input type="text-center" class="form-control" id="lastName" placeholder="" value="" required="" />
                     <div className="invalid-feedback">
                       Valid last name is required.
@@ -45,7 +48,7 @@ class Perfil_cuerpo extends Component {
                 
 
                 <div className="mb-1">
-                  <label for="username">Tu Correo</label>
+                  <label for="username">Correo electronico</label>
                   <div className="input-group">
                     <div className="input-group-prepend">
                       <span className="input-group-text">@</span>
@@ -69,10 +72,21 @@ class Perfil_cuerpo extends Component {
                     </div>
                   </div>
                 </div>
+                <div className="col-md-6 mb-1">
+                  <label for="username">Confirmar contraseña</label>
+                  <div className="input-group">
+                    <div className="input-group-prepend">
+                      
+                    </div>
+                    <input type="text" className="form-control" id="username" placeholder="Confirmar contraseña" required="" />
+                    <div className="invalid-feedback" >
+                    </div>
+                  </div>
+                </div>
                 </div>
 
 
-                
+                <Link to='menu' type="button" className="btn btn-success">Ingresar</Link>
 
               </form>
             </div>
@@ -84,4 +98,4 @@ class Perfil_cuerpo extends Component {
     )
   }
 }
-export default Perfil_cuerpo
+export default Registra_cuerpo

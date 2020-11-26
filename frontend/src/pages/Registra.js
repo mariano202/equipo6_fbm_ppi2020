@@ -1,16 +1,15 @@
 import React from 'react';
 import Navegacion from '../Componentes/Navegacion';
-import Perfil_cuerpo from '../Componentes/Perfil_cuerpo';
+import Registra_cuerpo from '../Componentes/Registra_cuerpo';
 
 
-export default function Perfil(){
+export default function Registra(){
     return (
         <>
-        <Navegacion/>
          
         
 
-        <Perfil_cuerpo/>
+        <Registra_cuerpo/>
 
       
 
