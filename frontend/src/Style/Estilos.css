@@ -3,6 +3,23 @@ background-image:url(https://cutewallpaper.org/21/odin-wallpaper-hd/Die-60-Beste
     display: flexbox;
     width:100%;
 }
+.email{
+    box-sizing:border-box;
+}
+.cc-number{
+    text-align: center;
+color: black;
+}
+
+.form-control{
+    text-align: center;
+}
+.lead{
+    text-align: center;
+}
+.firstName{
+    text-align: center;
+}
 .container{
     text-align: center;
 }

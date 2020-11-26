@@ -14,14 +14,21 @@ class Nav_inicio extends Component{
                 <ul className="navbar-nav mr-auto">
                   <li className="nav-item active">
                    
-                    <Link to='/digitar_queja'><button className="botones" type="button">REGISTRARSE</button></Link>
-                  
+                    <Link to='/Login'><button className="botones" type="button">REGISTRARSE</button></Link>
+
                   </li>
+
                   <li className="nav-item">
                   
                    <Link to='/registro'><button className="botones" type="button">INICIO DE SESION</button></Link>
                     
                   </li>
+
+                  <li className="nav-item active">
+
+                  <Link to='/digitar_queja'><button className="botones" type="button">DIGITAR QUEJA</button></Link>
+                  </li>
+          
                 </ul>
               </div>
             </nav>

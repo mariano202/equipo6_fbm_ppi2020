@@ -18,8 +18,7 @@ app.use(express.json());
 
 // ajustess
 app.use('/api',Usuario);
-//app.use('/api/modulos',modulos);
-//app.use('/api/colegios',colegios);
+/* hola mundo*/
 
 
 app.listen(app.get('port'),()=>{
